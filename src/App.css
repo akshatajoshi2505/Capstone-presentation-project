@@ -1,0 +1,136 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ecf0f1, #ffffff);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #6c5ce7);
+  color: white;
+}
+
+.logo {
+  width: 150px; /* Increase the size of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+  width: 100%;
+  background: linear-gradient(to bottom, #ecf0f1, #ffffff);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.member-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.member-info {
+  padding: 20px;
+  text-align: left;
+}
+
+.member-info h2 {
+  margin: 0;
+  color: #333;
+}
+
+.member-info ul {
+  list-style: square;
+  padding: 0;
+}
+
+.member-info li {
+  color: #666;
+}
+
+.member-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Advanced Styling */
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+section::before {
+  content: '';
+  flex-basis: 100%;
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  .member-card {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section {
+    justify-content: center;
+  }
+
+  .member-card {
+    width: 400px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #6c5ce7);
+  color: white;
+}
+
+.resume-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-link:hover {
+  background-color: #2980b9;
+}
