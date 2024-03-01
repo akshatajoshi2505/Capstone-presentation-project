@@ -78,7 +78,7 @@ function App() {
 
           <TeamMember
             name="Disha Patel"
-            linkedin="https://www.linkedin.com/in/disha-patel"
+            linkedin="https://www.linkedin.com/in/09disha-patel/"
             points={dishaPoints}
             image="Disha.jpg"
             resume="DISHA_Resume .pdf"
