@@ -81,7 +81,7 @@ function App() {
             linkedin="https://www.linkedin.com/in/disha-patel"
             points={dishaPoints}
             image="Disha.jpg"
-            resume="DISHA_Resume.pdf"
+            resume="DISHA_Resume .pdf"
           />
 
           <TeamMember
