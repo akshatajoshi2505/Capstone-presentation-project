@@ -71,7 +71,7 @@ function App() {
             linkedin="https://www.linkedin.com/in/isha-nakil-6085b31b2/"
             points={ishaPoints}
             image="Isha.jpeg"
-            resume=""
+            resume="ISHA_RESUME.pdf"
           />
 
           <TeamMember
