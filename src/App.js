@@ -31,9 +31,11 @@ function App() {
   ];
 
   const ishaPoints = [
-    'Skilled Mobile Application Developer',
-    'Contributed to the development of the ONGC app',
-    'Proficient in UI/UX design, PHP, and more',
+    'With a passion for technology and a dedication to continual learning, I bring a versatile skill set to the table.',
+    'My expertise spans various technologies, including JavaScript, Node.js, HTML, CSS, Python, R, Java, PHP, Android application development, SQL, and MySQL.',
+    'Driven by a curiosity for new ideas and a desire to contribute meaningfully, I thrive in dynamic environments where innovation is valued.',
+    'I approach challenges with a creative mindset, always seeking to expand my knowledge and skills.',
+    'Committed to personal and professional growth, I eagerly embrace new opportunities and strive to make a positive impact in the ever-evolving landscape of technology.',
   ];
 
   const dishaPoints = [
