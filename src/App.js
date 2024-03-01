@@ -24,10 +24,10 @@ const TeamMember = ({ name, linkedin, points,resume, image }) => (
 
 function App() {
   const akshataPoints = [
-    'Robust skill set in web development, showcasing expertise in JavaScript, Node.js, React.js, Angular.js, HTML, CSS, and AJAX',
-    'Proficiency in programming languages such as PHP, Java, and Python, with a strong grasp of web services like HTTP, SOAP, REST, and XSD',
-    'Experience extends to utilizing various web development servers, including JBoss, Apache Tomcat, XAMPP, and Nginx, and excels in database tools and queries, DBMS, MySQL Server, PL/SQL, and MongoDB',
-    'Adept at leveraging IDEs like NetBeans, Eclipse, IntelliJ, VS Code, Sublime, and Notepad++'
+    'Robust skill set in web development, showcasing expertise in JavaScript, Node.js, React.js, Angular.js, HTML, CSS, and AJAX.',
+    'Proficiency in programming languages such as PHP, Java, and Python, with a strong grasp of web services like HTTP, SOAP, REST, and XSD.',
+    'Experience extends to utilizing various web development servers, including JBoss, Apache Tomcat, XAMPP, and Nginx, and excels in database tools and queries, DBMS, MySQL Server, PL/SQL, and MongoDB.',
+    'Adept at leveraging IDEs like NetBeans, Eclipse, IntelliJ, VS Code, Sublime, and Notepad++.'
   ];
 
   const ishaPoints = [
@@ -46,10 +46,10 @@ function App() {
   ];
 
   const sagarPoints = [
-    'Technical proficiency spans areas such as data analysis, business process analysis, and implementation of advanced analytics using statistical modeling techniques',
-    'technical skills include proficiency in Python, SQL, HTML, CSS, and JS, showcasing his innovative and solution-oriented approach, and he has also demonstrated expertise in SharePoint intranet development',
-    'Experienced in IT systems protection, restoration, and advisory services for efficiency improvement',
-    'Robust background in project management, team leadership, and has developed dynamic Floor Planning and Space Planning projects using JDA Software',
+    'Technical proficiency spans areas such as data analysis, business process analysis, and implementation of advanced analytics using statistical modeling techniques.',
+    'technical skills include proficiency in Python, SQL, HTML, CSS, and JS, showcasing his innovative and solution-oriented approach, and he has also demonstrated expertise in SharePoint intranet development.',
+    'Experienced in IT systems protection, restoration, and advisory services for efficiency improvement.',
+    'Robust background in project management, team leadership, and has developed dynamic Floor Planning and Space Planning projects using JDA Software.',
   ];
 
   return (
